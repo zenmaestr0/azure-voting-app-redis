@@ -19,7 +19,7 @@ jobs:
         uses: azure/aks-set-context@v3
         with:
           resource-group: '07_Seher' 
-          cluster-name: 'SeherAKS'
+          cluster-name: 'SeherAKSCluster'
       - name: Setup kubectl
         id: install-kubectl
         uses: azure/setup-kubectl@v3
